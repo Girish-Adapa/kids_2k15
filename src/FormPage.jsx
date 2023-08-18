@@ -19,7 +19,7 @@ const FormPage = () => {
   const [email, setEmail] = useState('');
   const [number, setNumber] = useState('');
 
-  const imageSources = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9]; // Add more images as needed
+  // const imageSources = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9]; // Add more images as needed
 
 
   const phoneNumber = '9440987902';
@@ -30,7 +30,7 @@ const FormPage = () => {
   const onFinish = (values) => {
     if (!name || !email || !number) {
       message.error('Please fill out all fields');
-    } else if (number.length != 10) {
+    } else if (number.length !== 10) {
       message.error('Please enter 10-digit number')
     } else {
       window.open(whatsappLink, '_blank')

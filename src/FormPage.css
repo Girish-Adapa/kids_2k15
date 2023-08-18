@@ -1,0 +1,45 @@
+/* FormPage.css */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for the whole page */
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff; /* Background color for the form container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1890ff; /* Color for the form title */
+  }
+  
+  .submit-button {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover,
+  .submit-button:focus {
+    background-color: #096dd9;
+    border-color: #096dd9;
+  }
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Add more styles as needed */
+  

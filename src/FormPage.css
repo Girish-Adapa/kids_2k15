@@ -3,13 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 77vh;
     background-color: #f0f0f0; /* Background color for the whole page */
   }
   
   .form-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 200px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;

@@ -4,15 +4,15 @@ import { Form, Input, Button, message } from 'antd';
 import { WhatsAppOutlined } from '@ant-design/icons';
 import './FormPage.css';
 
-import pic1 from './images/IMG_20230127_211815.jpg'
-import pic2 from './images/IMG_20230127_212733.jpg'
-import pic3 from './images/IMG_20230323_150830.jpg'
-import pic4 from './images/IMG_20230323_150837.jpg'
-import pic5 from './images/IMG_20230323_182035.jpg'
-import pic6 from './images/DSC_0758.jpg'
-import pic7 from './images/DSC_0903.jpg'
-import pic8 from './images/IMG_0313.jpg'
-import pic9 from './images/IMG_0339.jpg'
+// import pic1 from './images/IMG_20230127_211815.jpg'
+// import pic2 from './images/IMG_20230127_212733.jpg'
+// import pic3 from './images/IMG_20230323_150830.jpg'
+// import pic4 from './images/IMG_20230323_150837.jpg'
+// import pic5 from './images/IMG_20230323_182035.jpg'
+// import pic6 from './images/DSC_0758.jpg'
+// import pic7 from './images/DSC_0903.jpg'
+// import pic8 from './images/IMG_0313.jpg'
+// import pic9 from './images/IMG_0339.jpg'
 
 const FormPage = () => {
   const [name, setName] = useState('');

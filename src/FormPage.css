@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 77vh;
-    background-color: #f0f0f0; /* Background color for the whole page */
+    height: 87vh;
+    background-color: #17ba0b; /* Background color for the whole page */
   }
   
   .form-container {
@@ -13,7 +13,7 @@
     padding: 65px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #ffffff; /* Background color for the form container */
+    background-color: #6bd1f9; /* Background color for the form container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -21,11 +21,11 @@
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    color: #1890ff; /* Color for the form title */
+    color: #070707; /* Color for the form title */
   }
   
   .submit-button {
-    background-color: #1890ff;
+    background-color: #0a0a0a;
     border-color: #1890ff;
     margin-top: 10px;
   }
@@ -42,21 +42,53 @@
   }
   
   /* Add more styles as needed */
-  /* FormPage.css */
-/* ... (existing styles) ... */
-
-/* WhatsApp and Instagram footer */
-/* FormPage.css */
-/* ... (existing styles) ... */
-
-/* WhatsApp and Instagram footer */
-.footer-container {
+  
+  /* WhatsApp and Instagram footer */
+  .footer-container {
     display: flex;
     justify-content: center; /* Center the icons horizontally */
     align-items: center;
-    background-color: #f5f5f5;
-    padding: 10px;
+    background-color: #faf8f8;
+    padding: 29px;
   }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: #12f452;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #1890ff; /* Change to your desired hover color */
+  }
+
+  /* Add background color to rows */
+  .row {
+    background-color: #ffffff; /* Background color for rows */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  /* FormPage.css */
+/* ... (existing styles) ... */
+
+/* Apply Roboto font to label and input text */
+.input-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333; /* Customize label color if needed */
+  }
+  
+  .input-field {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
   
   .footer-icon {
     font-size: 24px;
@@ -68,8 +100,6 @@
   .footer-icon:hover {
     color: #1890ff; /* Change to your desired hover color */
   }
+  
 
-  .row {
-    align-items: row;
-  }
   

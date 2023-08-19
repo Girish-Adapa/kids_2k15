@@ -51,7 +51,7 @@ const FormPage = () => {
             wrapperCol={{ span: 16 }}
           >
             <Form.Item
-              label="Full Name"
+              label={<span className="input-label">Full Name</span>}
               name="name"
             >
               <Input
@@ -63,7 +63,7 @@ const FormPage = () => {
             </Form.Item>
 
             <Form.Item
-              label="Email Address"
+              label={<span className="input-label">Email Address</span>}
               name="email"
               rules={[
                 { type: 'email', message: 'Please enter a valid email' },
@@ -77,7 +77,7 @@ const FormPage = () => {
             </Form.Item>
 
             <Form.Item
-              label="Contact Number"
+              label={<span className="input-label">Contact Number</span>}
               name="number"
               rules={[
                 {
@@ -99,13 +99,16 @@ const FormPage = () => {
               </Button>
             </Form.Item>
           </Form>
+          <div>
+            *After submitting, you will be redirected to WhatsApp
+          </div>
         </div>
       </div>
       <div className="footer-container">
-        <div className='row'>
+        <span>
           <WhatsApp className="footer-icon" />
           <Instagram className="footer-icon" />
-        </div>
+        </span>
       </div>
     </>
   );

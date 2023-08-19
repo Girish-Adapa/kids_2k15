@@ -100,6 +100,45 @@
   .footer-icon:hover {
     color: #1890ff; /* Change to your desired hover color */
   }
+
+  /* FormPage.css */
+/* ... (existing styles) ... */
+
+/* WhatsApp and Instagram footer */
+.footer-container {
+    /* ... (existing styles) ... */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding-right: 3px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: #1890ff; /* Change to your desired hover color */
+  }
+    
   
 
   

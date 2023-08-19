@@ -105,11 +105,18 @@ const FormPage = () => {
         </div>
       </div>
       <div className="footer-container">
-        <span>
-          <WhatsApp className="footer-icon" />
-          <Instagram className="footer-icon" />
-        </span>
+        <div className="footer-content">
+          <div className="footer-text">
+            For more information, contact&nbsp;:&nbsp;
+          </div>
+          <div className="footer-icons">
+            <WhatsApp className="footer-icon" />
+            <Instagram className="footer-icon" />
+          </div>
+        </div>
       </div>
+
+
     </>
   );
 };

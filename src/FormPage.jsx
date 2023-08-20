@@ -32,8 +32,6 @@ const FormPage = () => {
   const onFinish = (values) => {
     if (!name || !email || !number) {
       message.error('Please fill out all fields');
-    } else if (number.length !== 10) {
-      message.error('Please enter 10-digit number')
     } else {
       window.open(whatsappLink, '_blank')
     }
@@ -79,12 +77,6 @@ const FormPage = () => {
             <Form.Item
               label={<span className="input-label">Contact Number</span>}
               name="number"
-              rules={[
-                {
-                  pattern: /^[0-9]*$/,
-                  message: 'Please enter a valid number',
-                },
-              ]}
             >
               <Input
                 placeholder='Enter your WhatsApp Number'

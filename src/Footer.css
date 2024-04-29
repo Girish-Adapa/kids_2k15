@@ -1,0 +1,30 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer-icon {
+    margin-right: 5px; /* Adjust spacing between icons */
+  }
+  
+  .whatsapp-icon {
+    color: #25d366; /* WhatsApp icon color */
+  }
+  
+  .instagram-icon {
+    color: #e4405f; /* Instagram icon color */
+  }
+  
+  .linkedin-icon {
+    color: #0077b5; /* LinkedIn icon color */
+  }
+  

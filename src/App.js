@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
-import FormPage from './FormPage';
+import CrudPage from './CrudPage';
+import Footer from './Footer';
 
 function App() {
   return (
-    <FormPage />
+    <>
+        <CrudPage />
+<Footer /></>
   );
 }
 
